@@ -8,7 +8,7 @@ dependencies.constraints {
     api("com.squareup.okio:okio:1.17.2")
 
     api("org.apache.logging.log4j:log4j-core") {
-        version { reject("(,2.15.0)") }
+        version { reject("(,2.16.0)") }
         because("No matter what, we do not want these...")
     }
 }
